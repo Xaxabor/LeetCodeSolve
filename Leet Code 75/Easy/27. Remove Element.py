@@ -9,7 +9,7 @@ class Solution:
                 break;
             else:
                 count = count + 1
-        
+        # 
         for j in range(valIndex+1, len(nums)):
             if nums[j]!=val:
                 nums[valIndex], nums[j] = nums[j], nums[valIndex]
